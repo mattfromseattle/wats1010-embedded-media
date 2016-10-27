@@ -5,6 +5,35 @@
  * Site Styles
  *****************************************************************************/
 
- html {
-     color: green;
+ .main-nav li {
+     width: 100px;
+ }
+
+ .main-nav a {
+     text-decoration: none;
+     color: black;
+     font-size: 21px;
+     font-weight: 600;
+ }
+
+ .main-nav a link {
+     text-decoration: none;
+     color: black;
+     font-size: 21px;
+     font-weight: 600;
+ }
+
+ .main-nav a:hover {
+     text-decoration: underline;
+ }
+
+ .main-nav li {
+     list-style: none;
+     display: inline;
+ }
+
+ .headshot {
+     height: 20em;
+     width: 20em;
+     border-radius: 10em;
  }
