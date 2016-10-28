@@ -14,8 +14,9 @@ body {
 }
 
 header {
-    background-image: url(../img/official_header.jpg);
+    background-image: url(../img/official_header.png);
     background-size: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     min-height: 20em;
     border-radius: 1em;
@@ -46,8 +47,8 @@ li a {
 	color: #fff;
 	background: #00A9DC;
 	text-decoration: none;
-    margin-top: 5em;
-    margin-left: .05em;
+    margin-top: 4.95em;
+    margin-left: .25em;
 }
 
 .main-nav li {
