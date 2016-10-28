@@ -11,6 +11,10 @@ html {
 
 body {
     padding: 0;
+    background-image: url("../media/video/video_poster.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
 }
 
 header {
@@ -27,6 +31,7 @@ ul.main-nav {
     top: 275px;
     width: 97%;
     height: 40px;
+    border-radius: 1em;
 }
 
 .main-nav li {
@@ -34,14 +39,14 @@ ul.main-nav {
     align-items: center;
     list-style: none;
     font-size: 32px;
-    padding: 6em;
+    padding: 5em;
 }
 
 #social {
     position: absolute;
     top: 50px;
     right: 0;
-    width: 25px;
+    width: 20px;
     transition: 2s width;
 }
 
@@ -60,14 +65,19 @@ ul.main-nav {
 }
 
 h2 {
-  background-color: red;
+  background-color: #14A7DA;
   font-size: 34px;
   font-family: "Helvetica";
+  font-family: fantasy;
   text-align: center;
+  color: #F05221;
+  padding: 10px;
 }
 
 #watch {
-  text-align: center;
+  text-align: center;;
+  padding: 0;
+  line-height: 35px;
 }
 
 #listen {
@@ -75,7 +85,7 @@ h2 {
 }
 
 .download-button {
-  background: #3498db;
+  background: #14A7DA;
   border-radius: 28px;
   font-family: Arial;
   color: #ffffff;
@@ -90,19 +100,52 @@ h2 {
   text-decoration: none;
 }
 
+.lead::first-letter {
+    font-size: 90px;
+    font-family: fantasy;
+    color: #F05221;
+}
+
+.lead{
+    font-size: 40px;
+    text-align: center;
+    font-family: "Tahoma";
+    line-height: 2em;
+}
+
+.weybec-people {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    text-align: justify;
+}
+
 .headshot {
     height: 20em;
     width: 20em;
     border-radius: 10em;
+    margin-left: 20px;
+    margin-right: 160px;
 }
 
-footer p {
-  background-image: url("../img/official_header.png");
+footer {
+  background-image: url("../img/monkaa_monkeyhang.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  border-style: solid;
-  border-width: thin;
-  border-color: black;
   min-height: 20em;
+  border-radius: 1em;
+}
+
+footer p {
+    font-family: "Open Sans";
+    padding-top: 250px;
+    margin: 20px;
+    margin-left: 225px;
+}
+
+footer i {
+    font-size: 45px;
+    font-family: fantasy;
+    color: #14A7DA;
 }
